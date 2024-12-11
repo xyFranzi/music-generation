@@ -5,4 +5,9 @@ Analysis of the reault using
 # Dataset 
 The midi dataset can be downloaded here : [The MIDI Dataset](https://magenta.tensorflow.org/datasets/maestro#download)
 
+# Implementation
+see [this file](doc/generate.md)
+
+# Analysis of Results
+
 *The work is inspired from [this](https://github.com/jason9693/MusicTransformer-pytorch) repository and I acknowledge the author completely for his work.This was done as a part of learning.*
