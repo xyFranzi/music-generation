@@ -12,6 +12,8 @@ $ sh dataset/script/{ecomp_piano_downloader, midi_world_downloader, ...}.sh
 ## Preprocessing Dataset
 
 * In this repository using single track method.
+* Preprocess implementation repository is [here](https://github.com/jason9693/midi-neural-processor). I fully credit the author for his contributions. This was completed as part of my learning process.
+* This processor's algorithm is based on [PerformanceRNN](https://magenta.tensorflow.org/performance-rnn) & [Music Transformer (Polyphonic Music)](https://arxiv.org/abs/1809.04281) Model's preprocessing algorithm suggested by Google Magenta.
 
 ```bash
 $ python preprocess.py {midi_load_dir} {dataset_save_dir}
